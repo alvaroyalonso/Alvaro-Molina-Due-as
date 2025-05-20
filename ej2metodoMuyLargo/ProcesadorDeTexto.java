@@ -8,6 +8,9 @@ public class ProcesadorDeTexto {
     public void procesarDocumento(String documento) {
         if (documento == null || documento.isEmpty()) {
             System.out.println("Documento vacío.");
+            //CODIGO AÑADIDO
+            System.out.println("Documento sin nada");
+
             return;
         }
 
